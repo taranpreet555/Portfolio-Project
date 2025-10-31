@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background:linear-gradient(#12c2e9,#c471ed , #f64f59);
+            height: 80vh;
+        }
+         .calculator{
+            height: 315px;
+            width: 300px;
+            background:linear-gradient(#12c2e9,#c471ed , #f64f59);
+            text-align: center;
+            margin-left: 300px;
+            margin-top: 90px;
+            
+         }
+         button{
+            margin-top: 6px;
+            height:45px;
+            width:45px;
+            border: 2px solid white;
+            border-radius:10px;
+            
+         }
+         #display{
+            width: 185px;
+            height:30px;
+            border: 2px solid white;
+            border-radius:10px;
+            margin-top: 15px;
+         }
+         button:hover{
+            background:linear-gradient(#12c2e9,#c471ed , #f64f59);
+            color: white;
+            cursor: pointer;
+         }
+    </style>
+</head>
+<body>
+    <div class = "calculator">
+        <input type = "text" id = "display" disabled>
+        <div class="buttons">
+        <button onclick = "cleardisplay()">AC</button>
+        <button onclick = "Del()">Del</button>
+        <button onclick="num('%')">%</button>
+        <button onclick = "num('/')">/</button><br>
+        <button onclick = "num('7')">7</button>
+        <button onclick = "num('8')">8</button>
+        <button onclick="num('9')">9</button>
+        <button onclick="num('*')">x</button><br>
+        <button onclick = "num('4')">4</button>
+        <button onclick = "num('5')">5</button>
+        <button onclick = "num('6')">6</button>
+        <button onclick="num('-')">-</button><br>
+        <button onclick="num('1')">1</button>
+        <button onclick="num('2')">2</button>
+        <button onclick="num('3')">3</button>
+        <button onclick="num('+')">+</button><br>
+        <button onclick = "num('0')">0</button>
+        <button onclick="cal()">=</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
