@@ -88,7 +88,7 @@ nav ul {
     align-items: center;
     justify-content: center;
     height: auto;
-    padding: 10px 0;
+    padding: 10px;
     width:auto;
   }
   ul li {
@@ -103,10 +103,11 @@ nav ul {
   }
   .left, .right {
     width: 100%;
-    margin: 0;
+    margin: 20px;
     text-align: center;
   }
 }
+
 
 
 
