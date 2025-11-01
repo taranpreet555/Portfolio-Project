@@ -87,9 +87,11 @@ button{
   display: flex;
     align-items: center;
    width:auto;
-      height:auto;
+      height:50%;
+      width:50%;
   }
 }
+
 
 
 
