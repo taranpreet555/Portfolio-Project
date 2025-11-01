@@ -111,8 +111,13 @@ button{
     padding-top: 0;
       text-align: center;
   }
-    
+    nav ul li a {
+    display: inline-block;
+    font-size: small;
+    padding: 6px 0;
+  }
 }
+
 
 
 
