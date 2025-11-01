@@ -89,6 +89,7 @@ nav ul {
     justify-content: center;
     height: auto;
     padding: 10px 0;
+    width:auto;
   }
   ul li {
     margin: 5px 0;
@@ -106,6 +107,7 @@ nav ul {
     text-align: center;
   }
 }
+
 
 
 
