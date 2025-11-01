@@ -83,6 +83,9 @@ button{
  text-decoration: none;
 }
 @media (max-width: 768px){
+    container{
+        width:auto;
+    }
     nav ul{
         flex-direction:column;
         justify-content:center;
@@ -96,6 +99,7 @@ button{
 .left{
     margin-top:30px;
 }
+
 
 
 
