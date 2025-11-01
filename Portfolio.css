@@ -95,9 +95,10 @@ button{
   }
   .left {
     max-width: 100%;
-      margin-left:10px;
+      padding-left:20px;
   }
 }
+
 
 
 
