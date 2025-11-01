@@ -87,7 +87,8 @@ button{
     flex-direction: column;
     height: auto;
     padding: 10px 0;
-      width: auto;
+      width: 100%;
+      
   }
 
   nav ul li {
@@ -98,6 +99,7 @@ button{
       padding-left:20px;
   }
 }
+
 
 
 
