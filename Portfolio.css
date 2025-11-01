@@ -83,29 +83,54 @@ button{
  text-decoration: none;
 }
 @media (max-width: 768px) {
-nav ul {
+  nav ul {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  nav ul li {
+    margin: 8px 0;
+  }
+
+  .container {
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: auto;
-    width:auto;
-  }
-  ul li {
-    margin: 5px 0;
-    padding: 0;
+    padding: 40px 20px;
     text-align: center;
   }
+
   .left {
-    width: auto;
-    margin: 0px;
-    text-align: center;
+    max-width: 100%;
   }
-    .right{
-    width: auto;
-    margin-left: 30px;
-    text-align: center;
-  }  
+
+  img {
+    width: 220px;
+    height: 220px;
+    margin-top: 30px;
+    box-shadow: 0 0 15px orange, 0 0 25px red, 0 0 35px pink;
+  }
+
+  .text {
+    font-size: large;
+  }
+
+  .text2 {
+    font-size: x-large;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+  button {
+    width: 160px;
+    margin: 20px auto;
+    display: block;
+  }
 }
+
+
 
 
 
