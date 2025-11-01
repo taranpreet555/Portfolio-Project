@@ -82,6 +82,21 @@ button{
  color: blue;
  text-decoration: none;
 }
+@media (max-width: 768px){
+    nav ul{
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+        width:auto;
+        height:50px;
+    }
+    .right{
+        margin-left:10px;
+}
+.left{
+    margin-top:30px;
+}
+
 
 
 
