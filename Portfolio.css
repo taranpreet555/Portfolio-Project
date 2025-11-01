@@ -83,40 +83,30 @@ button{
  text-decoration: none;
 }
 @media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-   width:auto;
-      height:auto;
-      justify-content:center;
-  }
-    .left {
-    width: 100%;
-    margin-left: 0;
-    text-align: center;
-    margin-top: 0;
-  }
-
-  .right {
+nav ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-left: 20px;
-      padding-top:-20px;
-    width: 100%;
+    height: auto;
+    padding: 10px 0;
   }
-
   ul li {
     margin: 5px 0;
-    padding-top: 0;
-      text-align: center;
+    padding: 0;
+    text-align: center;
   }
-    nav ul li a {
+  nav ul li a {
     display: inline-block;
     font-size: small;
     padding: 6px 0;
   }
+  .left, .right {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
 }
+
 
 
 
