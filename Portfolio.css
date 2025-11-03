@@ -85,7 +85,7 @@ button{
 
 @media (max-width: 600px){
     .container{
-        width:auto;
+        width:100%;
     }
     nav ul{
         flex-direction:column;
@@ -111,6 +111,7 @@ p {
 }
 
    
+
 
 
 
