@@ -82,51 +82,36 @@ button{
  color: blue;
  text-decoration: none;
 }
-
-@media (max-width: 600px){
-    .container{
-        width:100%;
-    }
-    nav ul{
+@media (max-width: 600px)
+{
+    .container{ 
+        width:auto; 
+    } 
+    nav ul{ 
         flex-direction:column;
         justify-content:center;
         align-items: center;
         width:auto;
         height:90px;
     }
-  .main {
-    order: 2;         
-    margin-top: 20px;
-  }
-
-
-  .intro {
-    order: 3;
-    margin-top: 20px;
-    font-size: 14px;
-    line-height: 1.5;
-    padding: 0 15px;
-  }
-
-  .text2 {
-    font-size: 20px;
-  }
-
-  img {
-    width: 70%;
-    max-width: 250px;
-    height: auto;
-  }
-
-  button {
-    order: 4;
-    margin-top: 15px;
-  }
-
-
+    .right { 
+        padding-left:55px;
+        padding-top:10px;
+    } 
+    .left {
+        margin-top:7px;
+    } 
+    img {
+        margin-left:40px;
+        margin-top:30px;
+    }
+    p {
+        margin-top:30px; 
+    }
 }
 
    
+
 
 
 
