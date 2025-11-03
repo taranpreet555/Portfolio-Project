@@ -84,7 +84,7 @@ button{
 }
 
 @media (max-width: 600px){
-    container{
+    .container{
         width:auto;
     }
     nav ul{
@@ -111,6 +111,7 @@ p{
 }
 
    
+
 
 
 
